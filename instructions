@@ -1,0 +1,10 @@
+hladik@utu:~/python_virtual_envs/python_test$ cat requirements.txt
+ansible==2.8.15
+ansible-lint
+hladik@utu:~/python_virtual_envs/python_test$ cat commands
+python3 -m env .env
+source bin/activate
+pip3 install -r requirements.txt
+deactivate
+hladik@utu:~/python_virtual_envs/python_test$
+
